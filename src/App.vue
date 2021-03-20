@@ -2,6 +2,7 @@
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
+    <router-link to="/boxes-to-move">Boxes to move</router-link>
   </div>
   <router-view />
 </template>

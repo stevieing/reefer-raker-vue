@@ -1,12 +1,18 @@
 // @ts-ignore
 import { createRouter, createWebHistory } from 'vue-router'
 import HomePage from '@/views/HomePage.vue'
+import BoxesToMove from '@/views/BoxesToMove.vue'
 
 const routes = [
   {
     path: '/',
     name: 'Home',
     component: HomePage
+  },
+  {
+    path: '/boxes-to-move',
+    name: 'BoxesToMove',
+    component: BoxesToMove
   },
   {
     path: '/about',
