@@ -30,18 +30,17 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue'
+<script>
 import Boxes from '@/data/boxes.json'
 
-export default defineComponent({
+export default {
   name: 'BoxesToMove',
   data() {
     return {
       boxes: Boxes
     }
   }
-})
+}
 </script>
 
 <style>
