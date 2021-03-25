@@ -1,5 +1,5 @@
-// @ts-ignore
 import { createRouter, createWebHistory } from 'vue-router'
+// @ts-ignore
 import HomePage from '@/views/HomePage.vue'
 import BoxesToMove from '@/views/BoxesToMove.vue'
 

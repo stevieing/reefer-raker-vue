@@ -1,4 +1,4 @@
-// src/components/HelloWorld.spec.js
+// src/components/Home.spec.js
 import { mount } from '@vue/test-utils'
 // @ts-ignore
 import Home from '@/components/Home.vue'
